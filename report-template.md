@@ -1,7 +1,4 @@
-# Project Title
-
-This is the logistic regression model application for challenge 12!
-
+# Module 12 Report Template
 
 ## Overview of the Analysis
 
@@ -32,49 +29,3 @@ Summarize the results of the machine learning models, and include a recommendati
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
----
-
-## Technologies
-
-I am using python version 3.7.10 and am importing the following from the built-in libraries and from functions i've created myself:
-
-import pandas as pd
-import holoviews as hv
-from fbprophet import Prophet
-import hvplot.pandas
-import datetime as dt
-import numpy as np
-%matplotlib inline
-I also install the following:
-
-!pip install pystan
-  !pip install fbprophet
-  !pip install hvplot
-  !pip install holoviews
-
----
-
-## Installation Guide
-
-I have python version 3.7.10 and git version 2.33.0.windows.2 installed on a laptop running windows 10 pro.
-
-I launch the facebook colab webpage, upload forecasting_net_prophet.ipynb and that's it!
-
-
----
-
-## Usage
-
-Just upload the forecasting_net_prophet.ipynb notebook and run the code. User can feel free to change any dates used for charts or slicing if they want to study anything else.
-
-
----
-
-## Contributors
-Just me, Paul Lopez.
-
-
----
-
-## License
-No licenses required. Just install everything for free, pull from my repository, and enjoy!
